@@ -1,37 +1,36 @@
-# Automatic Document Scanner using OpenCV
+# Document Scanner with Streamlit
 
-**This repository contains code for [Automatic Document Scanner using OpenCV](https://learnopencv.com/automatic-document-scanner-using-opencv/) blog post**.
+This project is a **Document Scanner** built using **Streamlit** and other Python libraries. It allows users to upload document images, process them (e.g., crop, filter, or adjust), and save the processed output.
 
-[<img src="https://learnopencv.com/wp-content/uploads/2022/07/download-button-e1657285155454.png" alt="download" width="200">](https://www.dropbox.com/sh/i338audbv9yaptp/AABKAptWYRt8UMFZRz-QXrFPa?dl=1)
+---
 
-In this post, you will learn the following,
+## Features
+- **Upload Documents**: Upload images of documents (e.g., scanned PDFs, photos of documents).
+- **Image Preprocessing**: Includes options for cropping, resizing, and applying filters.
+- **Edge Detection**: Automatically detects document edges for precise cropping.
+- **Interactive Cropping**: Use a drawable canvas for manual adjustments.
+- **Save Processed Output**: Save the enhanced or processed document image locally.
 
-* Morphology
-* Canny Edge Detection
-* Contours
-* Corner Detection using Douglas-Peucker algorithm
-* Homography
-* Perspective Transform
+---
 
-## Install requirements
-```
-pip install -r requirements.txt
-```
+## Libraries Used
+- **Streamlit**: For building an interactive web application.
+- **streamlit-drawable-canvas**: For interactive image editing.
+- **OpenCV**: For image processing (e.g., edge detection, resizing).
+- **NumPy**: For numerical computations.
+- **Pillow**: For handling image file formats.
+- **Matplotlib**: For displaying images and plots.
 
-### Input
+---
 
-<img src = 'inputs/scanned-form.jpg'>
+## Installation
 
-### Output:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/document-scanner.git
+   pip install -r requirements.txt
+   streamlit run app.py
+   ```
 
-<img src = 'grabcutop/aligned.jpg'>
+## Refer images:
 
-# AI Courses by OpenCV
-
-Want to become an expert in AI? [AI Courses by OpenCV](https://opencv.org/courses/) is a great place to start. 
-
-<a href="https://opencv.org/courses/">
-<p align="center"> 
-<img src="https://learnopencv.com/wp-content/uploads/2023/01/AI-Courses-By-OpenCV-Github.png">
-</p>
-</a>

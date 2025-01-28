@@ -26,11 +26,12 @@ This project is a **Document Scanner** built using **Streamlit** and other Pytho
 ## Installation
 
 1. Clone the repository:
-   ```bash
+   ```
    git clone https://github.com/your-username/document-scanner.git
    pip install -r requirements.txt
    streamlit run app.py
    ```
 
 ## Refer images:
+bash![Screenshot 2025-01-28 194909](https://github.com/user-attachments/assets/219be71c-6935-441c-9faf-a9da07e77105)
 

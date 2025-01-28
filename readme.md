@@ -33,5 +33,5 @@ This project is a **Document Scanner** built using **Streamlit** and other Pytho
    ```
 
 ## Refer images:
-bash![Screenshot 2025-01-28 194909](https://github.com/user-attachments/assets/219be71c-6935-441c-9faf-a9da07e77105)
+![Screenshot 2025-01-28 194909](https://github.com/user-attachments/assets/219be71c-6935-441c-9faf-a9da07e77105)
 
